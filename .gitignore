@@ -1,89 +1,128 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
+tags
 *.py[cod]
-*$py.class
-
+*.pyc
+node_modules
 # C extensions
 *.so
 
-# Distribution / packaging
-.Python
-env/
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-*.egg-info/
-.installed.cfg
+# Packages
 *.egg
+*.egg-info
+dist
+# build
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+# lib
+lib64
+env
+db
 
-# PyInstaller
-#  Usually these files are written by a python script from a template
-#  before PyInstaller builds the exe, so as to inject date/other infos into it.
-*.manifest
-*.spec
+#config
+config/*
 
 # Installer logs
 pip-log.txt
-pip-delete-this-directory.txt
+logs/*
+shared/*
 
 # Unit test / coverage reports
-htmlcov/
-.tox/
 .coverage
-.coverage.*
-.cache
+.tox
 nosetests.xml
-coverage.xml
-*,cover
-.hypothesis/
 
 # Translations
-*.mo
-*.pot
 
-# Django stuff:
-*.log
-local_settings.py
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
 
-# Flask stuff:
-instance/
-.webassets-cache
 
-# Scrapy stuff:
-.scrapy
+### /Users/maple/.gitignore-boilerplates/Global/OSX.gitignore
 
-# Sphinx documentation
-docs/_build/
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
 
-# PyBuilder
-target/
 
-# IPython Notebook
-.ipynb_checkpoints
+# Thumbnails
+._*
 
-# pyenv
-.python-version
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
 
-# celery beat schedule file
-celerybeat-schedule
+*.swp
+nohup.out
+/static/img/slider
 
-# dotenv
-.env
+# Ignore dump backups.
+dump/
+dump*
 
-# virtualenv
-venv/
-ENV/
+trash/
+application/static/.webassets-cache/
+application/static/gen/
 
-# Spyder project settings
-.spyderproject
+.ropeproject/
+# Created by https://www.gitignore.io
 
-# Rope project settings
-.ropeproject
+### Intellij ###
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm
+
+*.iml
+
+## Directory-based project format:
+.idea/
+# if you remove the above rule, at least ignore the following:
+
+# User-specific stuff:
+# .idea/workspace.xml
+# .idea/tasks.xml
+# .idea/dictionaries
+
+# Sensitive or high-churn files:
+# .idea/dataSources.ids
+# .idea/dataSources.xml
+# .idea/sqlDataSources.xml
+# .idea/dynamic.xml
+# .idea/uiDesigner.xml
+
+# Gradle:
+# .idea/gradle.xml
+# .idea/libraries
+
+# Mongo Explorer plugin:
+# .idea/mongoSettings.xml
+
+## File-based project format:
+*.ipr
+*.iws
+
+## Plugin-specific files:
+
+# IntelliJ
+/out/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+bazel-*
+
+#ipython
+.ipynb_checkpoints/
+*.ipynb
+HIGHLIGHTS BY 0
